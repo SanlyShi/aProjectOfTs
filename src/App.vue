@@ -1,8 +1,8 @@
 <template>
   <div>
     <div id="nav">
-      <router-link to="/">HomePage</router-link>|
-      <router-link to="/about">AboutPage</router-link>
+      <router-link to="/">home</router-link>|
+      <router-link to="/about">about</router-link>
     </div>
     <router-view />
   </div>
@@ -27,6 +27,6 @@
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: blueviolet;
 }
 </style>
